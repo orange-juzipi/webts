@@ -5,6 +5,7 @@ export default defineConfig({
   title: "webts API",
   description: "聚集多种类型的 API 接口平台及实现",
   lastUpdated: true,
+  base: "/webts/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
