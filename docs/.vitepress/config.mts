@@ -6,6 +6,9 @@ export default defineConfig({
   description: "聚集多种类型的 API 接口平台及实现",
   lastUpdated: true,
   // base: "/webts/",
+  markdown: {
+    lineNumbers: true, // 启用行号
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -36,6 +39,9 @@ export default defineConfig({
               { text: "IP 地址", link: "/api/ip" },
               { text: "地理位置", link: "/api/code" },
               { text: "天气", link: "/api/weatherInfo" },
+              { text: "历史上的今天", link: "/api/today" },
+              { text: "翻译", link: "/api/translate" },
+              { text: "热搜", link: "/api/resou" },
             ],
           },
 
