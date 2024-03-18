@@ -10,6 +10,13 @@ export default defineConfig({
     lineNumbers: true, // 启用行号
   },
   themeConfig: {
+    lastUpdated: {
+      text: "最后更新于",
+    },
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -42,6 +49,13 @@ export default defineConfig({
               { text: "历史上的今天", link: "/api/today" },
               { text: "翻译", link: "/api/translate" },
               { text: "热搜", link: "/api/resou" },
+              {
+                text: "备案",
+                items: [
+                  { text: "网安备案", link: "/api/wangan" },
+                  { text: "ICP备案", link: "/api/icp" },
+                ],
+              },
             ],
           },
 
